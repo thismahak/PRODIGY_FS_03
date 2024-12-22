@@ -1,0 +1,143 @@
+/* ProductDetails.css */
+
+/* Container for the product details */
+.product-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Product image styling */
+.product-details-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 40px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Product info styling */
+.product-details-info {
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Product title */
+.product-details-info h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Product description */
+.product-details-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Product price */
+.product-details-info h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #009966; /* Green color for price */
+  margin-bottom: 20px;
+}
+
+/* Buttons styling */
+.add-to-cart-btn,
+.back-to-home-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  margin-right: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Add to cart button */
+.add-to-cart-btn {
+  background-color: #ff7f00; /* Orange color */
+  color: white;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #e67e00;
+  transform: scale(1.05);
+}
+
+/* Back to home button */
+.back-to-home-btn {
+  background-color: #009966; /* Green color */
+  color: white;
+}
+
+.back-to-home-btn:hover {
+  background-color: #007a3d;
+  transform: scale(1.05);
+}
+
+/* Disabled button state */
+button:disabled {
+  background-color: #b0d4f4;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Loading and error message */
+.loading,
+.error-message {
+  font-size: 1.2rem;
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .product-details-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .product-details-image {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .product-details-info {
+    max-width: 100%;
+  }
+
+  .product-details-info h1 {
+    font-size: 1.6rem;
+  }
+
+  .product-details-description {
+    font-size: 0.9rem;
+  }
+
+  .product-details-info h2 {
+    font-size: 1.2rem;
+  }
+
+  .add-to-cart-btn,
+  .back-to-home-btn {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}

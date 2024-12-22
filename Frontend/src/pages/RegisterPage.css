@@ -1,0 +1,123 @@
+/* RegisterPage.css */
+
+/* General styling for the register page */
+.register-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #f9f9f9; /* Light gray background */
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Heading for the Register page */
+.register-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #009966; /* Green */
+  text-align: center;
+}
+
+/* Register form styling */
+.register-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form input styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #009966; /* Green border on focus */
+  outline: none;
+}
+
+/* Submit button styling */
+button {
+  padding: 12px;
+  background-color: #ff7f00; /* Orange */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover:enabled {
+  background-color: #e67e00; /* Darker orange on hover */
+}
+
+button:disabled {
+  background-color: #e0e0e0; /* Light gray when disabled */
+  cursor: not-allowed;
+}
+
+/* Error message styling */
+.error-message {
+  color: #ff0000; /* Red */
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Redirect to login page styling */
+.redirect-login {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.redirect-login a {
+  color: #009966; /* Green */
+  text-decoration: none;
+}
+
+.redirect-login a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .register-page {
+    padding: 20px;
+  }
+
+  .register-heading {
+    font-size: 1.5rem;
+  }
+
+  .form-group input {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}

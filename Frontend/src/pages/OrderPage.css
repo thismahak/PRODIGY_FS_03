@@ -1,0 +1,163 @@
+/* OrderPage.css */
+
+/* Main container for the order page */
+.order-page {
+  padding: 40px;
+  background-color: #f9f9f9;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+}
+
+/* Title of the order page */
+.order-page h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* If no orders are present */
+.no-orders {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.no-orders a {
+  color: #ff7f00;
+  text-decoration: none;
+}
+
+.no-orders a:hover {
+  text-decoration: underline;
+}
+
+/* Container for orders */
+.orders-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual order item styling */
+.order-item {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.order-item:hover {
+  transform: scale(1.02);
+}
+
+/* Order ID and general info */
+.order-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.order-item p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.order-item p strong {
+  font-weight: bold;
+}
+
+/* Products list inside an order */
+.order-products {
+  margin-top: 20px;
+}
+
+.order-products h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Each product inside the order */
+.order-product {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.order-product:hover {
+  transform: scale(1.02);
+}
+
+.order-product img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Product details */
+.order-product div {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.order-product p {
+  font-size: 1rem;
+  color: #333;
+  margin: 5px 0;
+}
+
+/* Loading and error messages */
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ff4747;
+  margin-top: 50px;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+  .order-page {
+    padding: 20px;
+  }
+
+  .order-item {
+    padding: 15px;
+  }
+
+  .order-product {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .order-product img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .order-product div {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .order-products h4 {
+    font-size: 1rem;
+  }
+
+  .order-item h3 {
+    font-size: 1.3rem;
+  }
+}

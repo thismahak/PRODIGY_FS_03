@@ -1,0 +1,153 @@
+[
+    {
+      "name": "Apple iPhone 14",
+      "description": "Apple iPhone 14 with 128GB storage and A15 Bionic chip.",
+      "price": 799,
+      "image": "https://via.placeholder.com/150",
+      "stock": 50,
+      "category": "Electronics",
+      "rating": 4.8,
+      "reviews": ["Excellent phone!", "Worth every penny!"]
+    },
+    {
+      "name": "Samsung Galaxy S23",
+      "description": "Samsung Galaxy S23 with AMOLED display and 256GB storage.",
+      "price": 699,
+      "image": "https://via.placeholder.com/150",
+      "stock": 40,
+      "category": "Electronics",
+      "rating": 4.5,
+      "reviews": ["Great value for money!", "Amazing camera quality."]
+    },
+    {
+      "name": "Sony WH-1000XM5 Headphones",
+      "description": "Sony noise-canceling headphones with 30 hours of battery life.",
+      "price": 399,
+      "image": "https://via.placeholder.com/150",
+      "stock": 20,
+      "category": "Accessories",
+      "rating": 4.7,
+      "reviews": ["The best headphones I've used.", "Superb noise cancellation."]
+    },
+    {
+      "name": "Nike Air Max 270",
+      "description": "Comfortable and stylish running shoes from Nike.",
+      "price": 150,
+      "image": "https://via.placeholder.com/150",
+      "stock": 100,
+      "category": "Footwear",
+      "rating": 4.6,
+      "reviews": ["Very comfortable!", "Perfect fit and design."]
+    },
+    {
+      "name": "Dell XPS 13",
+      "description": "Dell XPS 13 ultrabook with Intel i7 processor and 16GB RAM.",
+      "price": 1200,
+      "image": "https://via.placeholder.com/150",
+      "stock": 30,
+      "category": "Computers",
+      "rating": 4.9,
+      "reviews": ["Best laptop for professionals.", "Highly recommend for work and travel."]
+    },
+    {
+      "name": "Logitech MX Master 3 Mouse",
+      "description": "Wireless mouse with ergonomic design and advanced scrolling.",
+      "price": 99,
+      "image": "https://via.placeholder.com/150",
+      "stock": 150,
+      "category": "Accessories",
+      "rating": 4.8,
+      "reviews": ["Perfect for office work!", "Amazing battery life."]
+    },
+    {
+      "name": "Asus ROG Strix Gaming Laptop",
+      "description": "High-performance gaming laptop with NVIDIA RTX graphics.",
+      "price": 1600,
+      "image": "https://via.placeholder.com/150",
+      "stock": 20,
+      "category": "Computers",
+      "rating": 4.7,
+      "reviews": ["Great for gaming.", "High-end performance!"]
+    },
+    {
+      "name": "Adidas Ultraboost 21",
+      "description": "Comfortable running shoes with Boost cushioning.",
+      "price": 180,
+      "image": "https://via.placeholder.com/150",
+      "stock": 80,
+      "category": "Footwear",
+      "rating": 4.6,
+      "reviews": ["Excellent comfort!", "Great for running."]
+    },
+    {
+      "name": "HP Envy 13",
+      "description": "HP ultrabook with Intel i5 processor and 8GB RAM.",
+      "price": 900,
+      "image": "https://via.placeholder.com/150",
+      "stock": 25,
+      "category": "Computers",
+      "rating": 4.5,
+      "reviews": ["Lightweight and fast.", "Good value for money."]
+    },
+    {
+      "name": "Sony Bravia 55-inch 4K TV",
+      "description": "55-inch Smart TV with HDR support and Google Assistant.",
+      "price": 1000,
+      "image": "https://via.placeholder.com/150",
+      "stock": 10,
+      "category": "Electronics",
+      "rating": 4.9,
+      "reviews": ["Amazing picture quality.", "Excellent smart features."]
+    },
+    {
+      "name": "Samsung Galaxy Watch 5",
+      "description": "Smartwatch with fitness tracking and AMOLED display.",
+      "price": 300,
+      "image": "https://via.placeholder.com/150",
+      "stock": 70,
+      "category": "Accessories",
+      "rating": 4.5,
+      "reviews": ["Stylish and functional.", "Best smartwatch I've used."]
+    },
+    {
+      "name": "Canon EOS 90D DSLR Camera",
+      "description": "High-quality DSLR camera with 32.5MP sensor.",
+      "price": 1400,
+      "image": "https://via.placeholder.com/150",
+      "stock": 15,
+      "category": "Electronics",
+      "rating": 4.8,
+      "reviews": ["Perfect for photography.", "Outstanding image quality."]
+    },
+    {
+      "name": "Bose SoundLink Mini II",
+      "description": "Compact Bluetooth speaker with powerful sound.",
+      "price": 180,
+      "image": "https://via.placeholder.com/150",
+      "stock": 50,
+      "category": "Accessories",
+      "rating": 4.7,
+      "reviews": ["Superb sound clarity.", "Highly portable."]
+    },
+    {
+      "name": "Levi's 501 Original Fit Jeans",
+      "description": "Classic straight-fit jeans from Levi's.",
+      "price": 60,
+      "image": "https://via.placeholder.com/150",
+      "stock": 200,
+      "category": "Clothing",
+      "rating": 4.6,
+      "reviews": ["Comfortable and durable.", "Fits perfectly!"]
+    },
+    {
+      "name": "Apple AirPods Pro",
+      "description": "Active noise-canceling wireless earbuds.",
+      "price": 249,
+      "image": "https://via.placeholder.com/150",
+      "stock": 60,
+      "category": "Accessories",
+      "rating": 4.8,
+      "reviews": ["Amazing sound!", "Noise cancellation is top-notch."]
+    }
+  ]
+  

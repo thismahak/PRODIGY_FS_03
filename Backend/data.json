@@ -1,0 +1,133 @@
+[
+    {
+      "name": "Orange",
+      "description": "Fresh and juicy oranges, perfect for a healthy snack.",
+      "price": 2.99,
+      "image": "https://res.cloudinary.com/dpcidpdq9/image/upload/v1734784818/product-1_iynx8c.png",
+      "stock": 200,
+      "category": "Fruits",
+      "rating": 4.7,
+      "reviews": [
+        "Very refreshing!",
+        "Great for juice."
+      ]
+    },
+    {
+      "name": "Onion",
+      "description": "Fresh onions for adding flavor to your meals.",
+      "price": 1.49,
+      "image": "https://res.cloudinary.com/dpcidpdq9/image/upload/v1734784818/product-2_hzmycr.png",
+      "stock": 300,
+      "category": "Vegetables",
+      "rating": 4.5,
+      "reviews": [
+        "Adds great flavor.",
+        "A must-have in every kitchen."
+      ]
+    },
+    {
+      "name": "Meat",
+      "description": "High-quality meat for grilling or cooking.",
+      "price": 12.99,
+      "image": "https://res.cloudinary.com/dpcidpdq9/image/upload/v1734784818/product-3_nvfzlj.png",
+      "stock": 100,
+      "category": "Meat",
+      "rating": 4.8,
+      "reviews": [
+        "Tastes great on the grill.",
+        "Very tender and flavorful."
+      ]
+    },
+    {
+      "name": "Cabbage",
+      "description": "Fresh and crisp cabbage, great for salads and soups.",
+      "price": 1.99,
+      "image": "https://res.cloudinary.com/dpcidpdq9/image/upload/v1734784818/product-4_dfgbgs.png",
+      "stock": 250,
+      "category": "Vegetables",
+      "rating": 4.3,
+      "reviews": [
+        "Perfect for coleslaw.",
+        "Very fresh and crunchy."
+      ]
+    },
+    {
+      "name": "Potato",
+      "description": "Fresh potatoes, ideal for mashed potatoes or fries.",
+      "price": 3.49,
+      "image": "https://res.cloudinary.com/dpcidpdq9/image/upload/v1734784819/product-5_whyaia.png",
+      "stock": 500,
+      "category": "Vegetables",
+      "rating": 4.6,
+      "reviews": [
+        "Great for making fries.",
+        "Very versatile."
+      ]
+    },
+    {
+      "name": "Avocado",
+      "description": "Fresh avocados, perfect for salads, toast, and guacamole.",
+      "price": 2.49,
+      "image": "https://res.cloudinary.com/dpcidpdq9/image/upload/v1734784819/product-6_bwghkn.png",
+      "stock": 150,
+      "category": "Fruits",
+      "rating": 4.9,
+      "reviews": [
+        "Great for making guacamole.",
+        "Super creamy."
+      ]
+    },
+    {
+      "name": "Carrot",
+      "description": "Crunchy and fresh carrots, perfect for snacking or cooking.",
+      "price": 1.29,
+      "image": "https://res.cloudinary.com/dpcidpdq9/image/upload/v1734784818/product-7_gaun9c.png",
+      "stock": 400,
+      "category": "Vegetables",
+      "rating": 4.7,
+      "reviews": [
+        "Perfect for salads.",
+        "Very fresh and crunchy."
+      ]
+    },
+    {
+      "name": "Sweet Lemon",
+      "description": "Tangy and sweet lemons, ideal for adding flavor to drinks and dishes.",
+      "price": 1.99,
+      "image": "https://res.cloudinary.com/dpcidpdq9/image/upload/v1734784818/product-8_kyhyye.png",
+      "stock": 250,
+      "category": "Fruits",
+      "rating": 4.4,
+      "reviews": [
+        "Great for lemon juice.",
+        "Nice and tangy."
+      ]
+    },
+    {
+      "name": "Organic Milk",
+      "description": "Fresh organic milk, perfect for all your dairy needs.",
+      "price": 3.99,
+      "image": "https://res.cloudinary.com/dpcidpdq9/image/upload/v1734784822/product-9_lv2rgg.jpg",
+      "stock": 350,
+      "category": "Dairy",
+      "rating": 4.8,
+      "reviews": [
+        "Tastes very fresh.",
+        "Great for baking and coffee."
+      ]
+    },
+    {
+      "name": "Bread",
+      "description": "Freshly baked bread, perfect for sandwiches or toast.",
+      "price": 2.49,
+      "image": "https://res.cloudinary.com/dpcidpdq9/image/upload/v1734784820/product-10_x2s2ov.jpg",
+      "stock": 600,
+      "category": "Bakery",
+      "rating": 4.6,
+      "reviews": [
+        "Soft and delicious.",
+        "Perfect for making toast."
+      ]
+    }
+  ]
+  

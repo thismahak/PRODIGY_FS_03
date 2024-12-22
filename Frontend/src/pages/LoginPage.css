@@ -1,0 +1,118 @@
+/* LoginPage.css */
+
+/* General styles for the Login Page */
+.login-page {
+  background-color: white;
+  color: #333;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Login Heading */
+.login-heading {
+  text-align: center;
+  font-size: 32px;
+  color: #009966; /* Green */
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Error message */
+.error-message {
+  color: #ff0000; /* Red */
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Login form styling */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form input fields styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #009966; /* Green border on focus */
+  outline: none;
+}
+
+/* Submit button */
+.submit-btn {
+  background-color: #ff7f00; /* Orange */
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:disabled {
+  background-color: #d3d3d3; /* Light gray when disabled */
+}
+
+.submit-btn:hover:enabled {
+  background-color: #ff5500; /* Darker orange on hover */
+}
+
+/* Redirect to Register styling */
+.redirect-register {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.redirect-register a {
+  color: #009966; /* Green */
+  text-decoration: none;
+}
+
+.redirect-register a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+  .login-page {
+    padding: 30px;
+    margin: 20px;
+  }
+
+  .login-heading {
+    font-size: 28px;
+  }
+
+  .form-group input {
+    font-size: 14px;
+  }
+
+  .submit-btn {
+    font-size: 14px;
+  }
+}
