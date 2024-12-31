@@ -44,3 +44,27 @@ An e-commerce website designed for a local store to enable customers to browse a
    ```bash
    git clone https://github.com/username/PRODIGY-FS-03.git
    cd PRODIGY-FS-03
+   
+### **Install backend dependencies:**
+
+- npm install
+### **Set up environment variables in .env:**
+
+- MONGODB_URI=your-mongodb-uri
+- JWT_SECRET=your-jwt-secret
+### **Start the backend server:**
+
+- npm start
+- The backend will be running at http://localhost:5000.
+### **Running the Frontend:**
+- *Navigate to the frontend folder:*
+
+  - cd frontend
+    
+- *Install frontend dependencies:*
+
+  - npm install
+- *Start the frontend server:*
+
+  - npm start
+  - *The frontend will be available at http://localhost:3000.*
